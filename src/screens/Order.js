@@ -101,7 +101,7 @@ export default class Order extends React.Component {
             <TouchableOpacity style={styles.TOback}  onPress={() => this.props.navigation.navigate('Home')}>
               <AntDesign style={styles.backIcon} name="left" color="black" />
             </TouchableOpacity>
-              <Text style={[styles.headerName, {color : 'black', fontSize: 34, fontWeight: '900',marginTop: 10}]} >My Orders</Text>
+              <Text style={[styles.headerName, {color : 'black', fontSize: 34, fontWeight: '900',marginTop: 10}]} >Orders</Text>
             </View>
             
             <View
