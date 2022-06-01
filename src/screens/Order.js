@@ -10,7 +10,7 @@ import {
     Dimensions
 } from "react-native";
 import AntDesign from 'react-native-vector-icons/AntDesign';
-// const { width } = Dimensions.get("window");
+const { width } = Dimensions.get("window");
 
 export default class Order extends React.Component {
   
