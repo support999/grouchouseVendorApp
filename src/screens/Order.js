@@ -10,7 +10,7 @@ import {
     Dimensions
 } from "react-native";
 import AntDesign from 'react-native-vector-icons/AntDesign';
-const { width } = Dimensions.get("window");
+// const { width } = Dimensions.get("window");
 
 export default class Order extends React.Component {
   
@@ -98,9 +98,9 @@ export default class Order extends React.Component {
           <View style={{ flex: 1, backgroundColor: "#E5E5E5" }}>
 
             <View style={styles.header}>
-            <TouchableOpacity style={styles.TOback}  onPress={() => this.props.navigation.navigate('Home')}>
+            {/* <TouchableOpacity style={styles.TOback}  onPress={() => this.props.navigation.navigate('Home')}>
               <AntDesign style={styles.backIcon} name="left" color="black" />
-            </TouchableOpacity>
+            </TouchableOpacity> */}
               <Text style={[styles.headerName, {color : 'black', fontSize: 34, fontWeight: '900',marginTop: 10}]} >Orders</Text>
             </View>
             
